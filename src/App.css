@@ -1,0 +1,66 @@
+@import "tailwindcss";
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: aqua;
+}
+.button-holder{
+  margin-top: 40px;
+
+}
+.input{
+  padding-top:5px;
+  padding-bottom: 5px;
+  padding-left: 8px;
+  outline: none;
+  border-radius: 5px;
+ 
+}
+h2{
+  padding-bottom:5px;
+}
+button{
+  margin: 40px 35px;
+  background-color: rgb(185, 57, 185);
+  border-radius: 5px;
+  height: 40px;
+  width: 80%;
+
+}
+
+.top{
+  margin-top:10px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+   text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+
+}
+.bottom{
+  margin-top:180px;
+   text-align: center;
+  font-size: 30px;
+  color: white;
+   text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
